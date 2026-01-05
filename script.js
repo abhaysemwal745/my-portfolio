@@ -58,6 +58,23 @@ document.querySelectorAll('.project-card').forEach(card => {
         }
       });
     }
+
+    if (btn.innerText.includes('Live')) {
+      btn.addEventListener('click', () => {
+        if (title.includes('Portfolio')) {
+          window.open('https://abhaysemwal745.github.io/my-portfolio/', '_blank');
+        }
+      });
+    }
+
+    if (btn.innerText.includes('Github')) {
+      btn.addEventListener('click', () => {
+        if (title.includes('Portfolio')) {
+          window.open('https://github.com/abhaysemwal745/my-portfolio', '_blank');
+        }
+      });
+    }
+
   });
 });
 
