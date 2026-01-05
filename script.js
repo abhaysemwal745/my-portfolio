@@ -14,7 +14,7 @@ const buttons = document.querySelectorAll('.btn-group .btn');
 buttons.forEach(btn => {
   if (btn.innerText.includes('Download')) {
     btn.addEventListener('click', () => {
-      window.open('Abhay_Semwal_CV.pdf', '_blank');
+      window.open('AbhayCV.pdf', '_blank');
     });
   }
 
