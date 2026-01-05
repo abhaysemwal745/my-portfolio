@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> <span>Abhay Semwal</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <button class="visit-btn">Visit GitHub</button>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="img.jpg" alt="" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Namaste, I'm</h3>
+            <h1>Abhay Semwal</h1>
+            <span>Frontend Web Developer (Fresher)</span>
+          </div>
+
+          <div class="btn-group">
+            <div class="btn">Download CV</div>
+            <div class="btn">Contact</div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-solid fa-envelope" id="mail-btn"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Hands-on Experience</h2>
+
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <span>Frontend Development (Project-Based Learning)</span>
+            <p>
+              Built and refined personal web projects using HTML, CSS, and
+              JavaScript. Focused on semantic, responsive layouts and
+              interactive UI behavior while maintaining clean, readable code
+              through iterative development and debugging.
+            </p>
+          </div>
+          <div class="grid-card">
+            <span>UI Development & Debugging</span>
+            <p>
+              Gained practical experience identifying and fixing layout,
+              styling, and interaction issues using browser developer tools.
+              Improved UI reliability and user experience through debugging,
+              testing, and iterative refinement of frontend code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="" />
+          <h3>Decision Fatigue Simulator</h3>
+          <p>
+            An interactive web application that simulates decision fatigue
+            through repeated user choices. Developed with HTML, CSS, and
+            JavaScript, emphasizing logic flow and responsive UI design.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.jpg" alt="" />
+          <h3>Portfolio Website</h3>
+          <p>
+            A responsive personal portfolio designed to present projects and
+            professional details clearly. Developed with semantic HTML, modular
+            CSS, and JavaScript for interactive elements.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-cards">
+        <div class="skills-card">
+          <h3 class="skills-card-title">
+            <i class="fa-solid fa-code"></i> Frontend
+          </h3>
+          <div class="skills-chips">
+            <span class="skill-chip"
+              ><i class="fa-brands fa-html5"></i> HTML</span
+            >
+            <span class="skill-chip"
+              ><i class="fa-brands fa-css3-alt"></i> CSS</span
+            >
+            <span class="skill-chip"
+              ><i class="fa-brands fa-js"></i> JavaScript</span
+            >
+          </div>
+        </div>
+
+        <div class="skills-card">
+          <h3 class="skills-card-title">
+            <i class="fa-solid fa-laptop-code"></i> Programming
+          </h3>
+          <div class="skills-chips">
+            <span class="skill-chip"
+              ><i class="fa-solid fa-code"></i> Python</span
+            >
+            <span class="skill-chip"
+              ><i class="fa-solid fa-terminal"></i> C++</span
+            >
+            <span class="skill-chip"
+              ><i class="fa-solid fa-database"></i> SQL / MySQL</span
+            >
+          </div>
+        </div>
+
+        <div class="skills-card">
+          <h3 class="skills-card-title">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Tools
+          </h3>
+          <div class="skills-chips">
+            <span class="skill-chip"
+              ><i class="fa-brands fa-git-alt"></i> Git</span
+            >
+            <span class="skill-chip"
+              ><i class="fa-brands fa-github"></i> GitHub</span
+            >
+            <span class="skill-chip"
+              ><i class="fa-solid fa-code"></i> VS Code</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input">
+          <input type="email" id="email" placeholder="example@gmail.com" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <button class="btn" id="submit">Submit</button>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        © All Rights Reserved, we can talk About Lefts | Abhay Semwal
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
