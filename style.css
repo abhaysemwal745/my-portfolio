@@ -57,7 +57,6 @@ li a::before {
     top: 25px;
     border-radius: 1rem;
     transition: 0.4s ease-in-out;
-    background: linear-gradient(to right, rgb(0, 156, 254), rgb(254, 0, 255));
 }
 
 li a:hover::before {
@@ -74,11 +73,9 @@ li a:hover::before {
     cursor: pointer;
     text-wrap: nowrap;
     transition: 0.3s ease-in-out;
-    background: linear-gradient(to right, rgb(0, 156, 254), rgb(254, 0, 255));
 }
 
 .visit-btn:hover {
-    background: linear-gradient(to right, rgb(254, 0, 255), rgb(0, 156, 254));
     transform: scale(1.03);
 }
 
@@ -137,7 +134,6 @@ section {
 }
 
 .info-box span {
-    background: linear-gradient(to right, rgb(254, 0, 255), rgb(0, 156, 254));
     background-clip: text;
     color: transparent;
     font-size: 2rem;
@@ -156,11 +152,6 @@ section {
     font-weight: 500;
     text-wrap: nowrap;
     transition: 0.2s ease-in-out;
-}
-
-.btn:hover {
-    background-color: black;
-    color: white;
 }
 
 .socials {
@@ -217,8 +208,6 @@ section {
 
 .grid-card:hover {
     transform: scale(1.02);
-    background-color: rgb(0, 0, 0);
-    color: white;
 }
 
 .grid-card i {
@@ -229,7 +218,6 @@ section {
 .grid-card span {
     font-size: 1.5rem;
     font-weight: 500;
-    background: linear-gradient(to bottom, #9abfd5, #ff00ff);
     background-clip: text;
     color: transparent;
 }
@@ -237,14 +225,6 @@ section {
 ::-webkit-scrollbar {
     width: 10px;
 
-}
-
-::-webkit-scrollbar-track {
-    background-color: rgb(219, 219, 219);
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #96c5e2, #ff00ff);
 }
 
 .projects-grid {
@@ -268,8 +248,6 @@ section {
 }
 
 .project-card:hover {
-    background-color: black;
-    color: white;
     transform: translateY(-10px) scale(1.02);
 }
 
@@ -281,13 +259,12 @@ section {
 
 .project-card:hover .btn {
     border: 2px solid white;
-    color: white;
 }
 
 .project-card:hover .btn:hover {
-    border: 2px solid white;
-    background-color: white;
-    color: black;
+    border: 2px solid #f4f2f4;
+    background-color: rgb(16, 48, 68);
+    color: rgb(253, 252, 253);
 }
 
 .project-card h3 {
@@ -517,7 +494,6 @@ footer ul li a {
 }
 
 .skills-card-title i {
-    background: linear-gradient(to right, rgb(0, 156, 254), rgb(254, 0, 255));
     background-clip: text;
     color: transparent;
 }
@@ -574,8 +550,7 @@ footer ul li a {
     }
 }
 
-/* ===== COLOR THEME OVERRIDEN ===== */
-
+/* color theme  */
 body {
     background-color: #0f172a;
     color: #f8fafc;
