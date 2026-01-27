@@ -31,6 +31,7 @@ A responsive personal portfolio website built to showcase my frontend projects, 
 - Experience managing project versions using Git
 
 ## Live Demo
+https://abhaysemwal745.github.io/my-portfolio/
 
 
 ## Getting Started
@@ -46,6 +47,6 @@ To run this project locally:
 
 ## Author
 Abhay Semwal  
-Frontend-focused learner building projects to strengthen core web development skills.
+
 
 If you find this project useful or interesting, feel free to star the repository.
